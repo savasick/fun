@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  web:
+    image: python:3.8
+    command: sh -c "pip install flask psycopg2 && python app/main.py"
+    volumes:
+      - ./app:/app
+    ports:
+      - "2228:5000"
+    depends_on:
+      - db
+
+  db:
+    build: ./db/
+
