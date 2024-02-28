@@ -18,12 +18,13 @@ python decrypt.py
 
 try this out
 ```bash
-python3 decrypt.py 
-# Enter passphrase : yolo
-# Enter path to folder : test
-
-# THEN
 python3 encrypt.py 
 #Enter passphrase : yolo
 #Enter path to folder : test
+
+# THEN
+
+python3 decrypt.py 
+# Enter passphrase : yolo
+# Enter path to folder : test
 ```
