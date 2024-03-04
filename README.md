@@ -14,7 +14,7 @@ fun 4 life
 <a href="./mandelbrot/">mandelbrot</a> - with python-pyside6
 
 
-<a href="./sounde-voice/">sounde-voice</a> - to sounde / voice
+<a href="./sound-voice/">sound-voice</a> - to sounde / voice
 
 
 <a href="./sql-injection/">sql injection</a> - with python-flask / postgres
