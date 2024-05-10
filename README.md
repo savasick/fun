@@ -14,6 +14,9 @@ fun 4 life
 <a href="./mandelbrot/">mandelbrot</a> - with python-pyside6
 
 
+<a href="./php-code-injection/">php code injection</a> - with php7
+
+
 <a href="./sound-voice/">sound-voice</a> - to sounde / voice
 
 
