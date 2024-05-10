@@ -11,7 +11,7 @@ fun 4 life
 <a href="./game-life/">game-life</a> - with python-pygame
 
 
-<a href="./pi/">pi</a> - with python-calculate pi
+<a href="./pi/">pi</a> - with python-math
 
 
 <a href="./mandelbrot/">mandelbrot</a> - with python-pyside6
