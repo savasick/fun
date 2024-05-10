@@ -8,6 +8,9 @@ fun 4 life
 <a href="./crypt-data-passphrase/">crypt-data-passphrase</a> - with python-cryptography
 
 
+<a href="./game-life/">game-life</a> - with python-pygame
+
+
 <a href="./pi/">pi</a> - with python-calculate pi
 
 
@@ -21,6 +24,7 @@ fun 4 life
 
 
 <a href="./sql-injection/">sql injection</a> - with python-flask / postgres
+
 
 <a href="./three-body_problem/">three body problem</a> - with python - numpy / pygame
 
