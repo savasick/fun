@@ -1,37 +1,13 @@
 version: '3.8'
 
 services:
-  db:
-    image: mysql:latest
-    restart: always
-    volumes:
-#      - ./sql.sql:/docker-entrypoint-initdb.d/sql.sql
-      - db_data:/var/lib/mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: "Y0loBruhM4n"
-      MYSQL_DATABASE: test_a25
-      MYSQL_PASSWORD: "Y0loBruhM4n"
-      MYSQL_ROOT_HOST: "%"
-
   php:
     build:
       context: .
       dockerfile: Dockerfile
     restart: always
-    volumes:
-      - ./index.php:/var/www/html/index.php
-    depends_on:
-      - db
+#    volumes:
+#      - ./index.php:/var/www/html/index.php
     ports:
       - 80:80
-
-  adminer:
-    image: adminer:latest
-    restart: always
-    ports:
-      - 8080:8080
-    depends_on:
-      - db
-
-volumes:
-  db_data:
+#    network_mode: "host"
