@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+#    volumes:
+#      - ./index.php:/var/www/html/index.php
+    ports:
+      - 80:80
+#    network_mode: "host"

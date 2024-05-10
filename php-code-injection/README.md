@@ -1,7 +1,5 @@
 # PHP code injection
 
-#
-
 start
 ```bash
 docker-compose up -d 
