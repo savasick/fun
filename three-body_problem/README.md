@@ -15,3 +15,9 @@ python3 main.py
 ```
 
 press <strong>R</strong> to restart simulation
+
+press <strong>T</strong> to paint triangle
+
+press <strong>P</strong> to paint position
+
+press <strong>F</strong> to freeze simulation
